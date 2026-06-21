@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+out/
+resources/assets/
+resources/js/neutralino.js
+js/
+
+# Neutralino binaries
+bin/
+
+# Storage (API keys, memory, etc.)
+.storage/
+.tmp/
+
+# Logs
+neutralinojs.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+启动码.txt
+test-electron/

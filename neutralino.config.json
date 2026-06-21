@@ -1,0 +1,41 @@
+{
+  "applicationId": "com.aiagent.app",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "port": 0,
+  "documentRoot": "/resources/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "tokenSecurity": "one-time",
+  "logging": {
+    "enabled": true,
+    "writeToLogFile": true
+  },
+  "nativeAllowList": [
+    "app.*",
+    "os.*",
+    "filesystem.*",
+    "window.*",
+    "storage.*"
+  ],
+  "modes": {
+    "window": {
+      "title": "AI Agent",
+      "width": 1400,
+      "height": 900,
+      "minWidth": 960,
+      "minHeight": 640,
+      "borderless": true,
+      "resizable": true,
+      "useSavedState": false,
+      "enableInspector": true
+    }
+  },
+  "cli": {
+    "binaryName": "ai-agent-app",
+    "resourcesPath": "/resources/",
+    "clientLibrary": "/js/neutralino.js",
+    "binaryVersion": "6.8.0",
+    "clientVersion": "6.8.0"
+  }
+}
